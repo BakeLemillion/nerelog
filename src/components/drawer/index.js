@@ -105,7 +105,7 @@ export default function MiniDrawer() {
 
     React.useEffect(() => {
         if (apps.apps) {
-            setItems(apps.apps.slice(0, 15))
+            setItems(apps.apps.slice(0, 30))
         }
         if (apps.apps) {
             setClient(apps.clients)
@@ -122,7 +122,7 @@ export default function MiniDrawer() {
     const handleObserver = useCallback((entries) => {
         const target = entries[0];
         if (target.isIntersecting) {
-            setItems((prev) => [...prev, ...apps.apps.slice(prev.length, prev.length + 15)])
+            setItems((prev) => [...prev, ...apps.apps.slice(prev.length, prev.length + 30)])
         }
     }, []);
 
