@@ -1,0 +1,58 @@
+.markerClusterSmall {
+    border-radius: 20px;
+    font-size: 1.2vw;
+    color: #000;
+    background-color: #fff;
+    font-weight: 900;
+    font-family: Open Sans;
+    border: 3px solid green;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .markerClusterMedium {
+    border-radius: 40px;
+    font-size: 1.2vw;
+    color: #000;
+    background-color: #fff;
+    border: 3px solid green;
+    font-weight: 900;
+    font-family: Open Sans;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .markerClusterLarge {
+    border-radius: 70px;
+    font-size: 1.2vw;
+    color: #000;
+    background-color: #fff;
+    border: 3px solid green;
+    font-weight: 900;
+    font-family: Open Sans;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .markerClusterLargeXL {
+    border-radius: 70px;
+    font-size: 1.2vw;
+    color: #000;
+    background-color: #fff;
+    border: 3px solid green;
+    font-weight: 900;
+    font-family: Open Sans;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .markerClusterLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
